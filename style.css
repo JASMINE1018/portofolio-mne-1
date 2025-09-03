@@ -1,0 +1,327 @@
+header{
+    font-size: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header h3{
+    font-size: 20px;
+    background-color: #AA95B5;
+    padding: 20px 0px 20px 0px;
+    box-shadow: 0px 1px 4px black;
+}
+
+.header-animate {
+    animation: fadeInDown 1s forwards;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #631717;
+}
+
+.container a{
+    text-decoration: none;
+    color: #7d638a;
+}
+
+.container a:hover{
+    background-color: #AA95B5;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.9;
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.container ul{
+    list-style: none;
+}
+
+details:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: #1a141e;
+    color: white;
+    border-radius: 20px 0px 20px 0px;
+}
+
+#Beranda img{
+        margin: 0 auto;
+    display: block;
+    border-radius: 90px;
+    padding: 40px 0px 0px 0px;
+
+}
+
+#Beranda h2{
+    text-align: center;
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to right, #936aab, #edb5ba, #1e3eb4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 50px 0px 0px 0px;
+}
+
+.Beranda-animate {
+    animation: fadeInDown 1s forwards;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#Beranda h3{
+    text-align: justify;
+}
+
+#Beranda h3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ceb0dd;
+    width: 600px;
+}
+
+#Beranda p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 4px black;
+    padding: 30px 0px 30px 0px;
+    text-align: justify;
+}
+
+#Beranda ul{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ceb0dd;
+    text-align: center;
+    padding: 20px 0px 20px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#Beranda a{
+    color: white;
+}
+
+#Beranda a:hover{
+    color: rgb(178, 0, 0);
+}
+
+#Pendidikan h2{
+    text-align: center;
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to right, #936aab, #edb5ba, #1e3eb4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 50px 0px 0px 0px;
+}
+
+.Pendidikan-animate {
+    animation: fadeInDown 1s forwards;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#Pendidikan ul{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ceb0dd;
+    text-align: center;
+    padding: 20px 0px 20px 20px;
+}
+
+#Keahlian h2{
+    text-align: center;
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to right, #936aab, #edb5ba, #1e3eb4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 50px 0px 0px 0px;
+}
+
+.Keahlian-animate {
+    animation: fadeInDown 1s forwards;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.keahlian-2 h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #9e87aa;
+    width: 400px;
+    padding: 20px 0px 20px 20px;
+    color: white;
+}
+.keahlian-2 ul{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ceb0dd;
+    width: 400px;
+    padding: 20px 0px 20px 20px;
+    list-style-type: square;
+}
+
+.keahlian-2:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    box-shadow: 1px 1px 60px rgb(59, 39, 69);
+}
+
+.keahlian-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.keahlian-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.keahlian-3 h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #9e87aa;
+    width: 400px;
+    padding: 20px 0px 20px 20px;
+    color: white;
+}
+
+.keahlian-3 ul{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ceb0dd;
+    width: 400px;
+    padding: 20px 0px 20px 20px;
+    list-style-type: square;
+}
+
+.keahlian-3 img{
+    margin: 50px 0px 0px 0px;
+ 
+}
+
+.keahlian-3:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    box-shadow: 1px 1px 60px rgb(59, 39, 69);
+}
+
+#Kontak h2{
+    text-align: center;
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to right, #936aab, #edb5ba, #1e3eb4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 50px 0px 0px 0px;
+}
+
+
+.Kontak-animate {
+    animation: fadeInDown 1s forwards;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.kontak-1{
+    padding: 30px 0px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #7d638a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 216, 223);
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px rgb(76, 37, 70);
+    
+}
+
+.kontak-1 input{
+    font-size: 20px;
+    background: linear-gradient(to right, #ceb0dd, #edb5ba, white);
+    border-radius: 30px;
+
+}
+
+.icons{
+    padding: 50px;
+    text-align: center;
+    background-color: #997aa9;
+    height: 30px;
+}
+
+.icons a{
+    color: #f0ecf3;
+    text-decoration: wavy underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.icons a:hover{
+    background-color: #1e3eb4;
+    color: #ceb0dd;
+    transition: 0.2s;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer{
+    background:  linear-gradient(to right, #936aab, #edb5ba, #1e3eb4);
+    margin-top: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
